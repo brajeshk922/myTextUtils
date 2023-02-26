@@ -66,7 +66,7 @@ export default function TextForm(props) {
           Copy text
         </button>
         <button disabled = {text.length===0} className="btn btn-primary my-1 mx-1" onClick={extraSpace}>
-          Reove Extra Space
+          Remove Extra Space
         </button>
         <button disabled = {text.length===0} className="btn btn-primary my-1 mx-1" onClick={clear}>
           Clear
