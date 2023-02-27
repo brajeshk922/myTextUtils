@@ -69,7 +69,7 @@ export default function TextForm(props) {
           Remove Extra Space
         </button>
         <button disabled = {text.length===0} className="btn btn-primary my-1 mx-1" onClick={clear}>
-          Clear
+          Clear Text
         </button>
       </div>
       <div className="container">
